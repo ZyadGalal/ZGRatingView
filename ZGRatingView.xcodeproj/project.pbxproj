@@ -10,12 +10,6 @@
 		32CF5844243F5C7D00CA58E1 /* ZGRatingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CF583A243F5C7D00CA58E1 /* ZGRatingView.framework */; };
 		32CF5849243F5C7D00CA58E1 /* ZGRatingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF5848243F5C7D00CA58E1 /* ZGRatingViewTests.swift */; };
 		32CF584B243F5C7D00CA58E1 /* ZGRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CF583D243F5C7D00CA58E1 /* ZGRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32CF585B243F5CB000CA58E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF585A243F5CB000CA58E1 /* AppDelegate.swift */; };
-		32CF585D243F5CB000CA58E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF585C243F5CB000CA58E1 /* SceneDelegate.swift */; };
-		32CF585F243F5CB000CA58E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF585E243F5CB000CA58E1 /* ViewController.swift */; };
-		32CF5862243F5CB000CA58E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CF5860243F5CB000CA58E1 /* Main.storyboard */; };
-		32CF5864243F5CB100CA58E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CF5863243F5CB100CA58E1 /* Assets.xcassets */; };
-		32CF5867243F5CB100CA58E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CF5865243F5CB100CA58E1 /* LaunchScreen.storyboard */; };
 		32CF587D243F5E7800CA58E1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 32CF587B243F5E7800CA58E1 /* LICENSE */; };
 		32CF587E243F5E7800CA58E1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32CF587C243F5E7800CA58E1 /* README.md */; };
 		32CF5881243F5EDA00CA58E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CF5880243F5EDA00CA58E1 /* Assets.xcassets */; };
@@ -52,13 +46,6 @@
 		32CF5848243F5C7D00CA58E1 /* ZGRatingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGRatingViewTests.swift; sourceTree = "<group>"; };
 		32CF584A243F5C7D00CA58E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32CF5858243F5CB000CA58E1 /* ZGRatingViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGRatingViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		32CF585A243F5CB000CA58E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32CF585C243F5CB000CA58E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32CF585E243F5CB000CA58E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		32CF5861243F5CB000CA58E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		32CF5863243F5CB100CA58E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		32CF5866243F5CB100CA58E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		32CF5868243F5CB100CA58E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32CF586D243F5CB100CA58E1 /* ZGRatingViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGRatingViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CF587B243F5E7800CA58E1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		32CF587C243F5E7800CA58E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -68,7 +55,7 @@
 		32CF5887243F5F0900CA58E1 /* ZGRatingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGRatingView.xib; path = Classes/ZGRatingView.xib; sourceTree = "<group>"; };
 		32CF5888243F5F0900CA58E1 /* ZGRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZGRatingView.swift; path = Classes/ZGRatingView.swift; sourceTree = "<group>"; };
 		32CF5889243F5F0900CA58E1 /* ProgressBarColorStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressBarColorStyle.swift; path = Classes/ProgressBarColorStyle.swift; sourceTree = "<group>"; };
-		32CF588D243F5F7200CA58E1 /* ZGRatingView.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZGRatingView.podspec; sourceTree = SOURCE_ROOT; };
+		32CF588D243F5F7200CA58E1 /* ZGRatingView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ZGRatingView.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +97,6 @@
 				32CF587A243F5D1900CA58E1 /* podspec Metadata */,
 				32CF583C243F5C7D00CA58E1 /* ZGRatingView */,
 				32CF5847243F5C7D00CA58E1 /* ZGRatingViewTests */,
-				32CF5859243F5CB000CA58E1 /* ZGRatingViewExample */,
 				32CF583B243F5C7D00CA58E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -147,20 +133,6 @@
 				32CF584A243F5C7D00CA58E1 /* Info.plist */,
 			);
 			path = ZGRatingViewTests;
-			sourceTree = "<group>";
-		};
-		32CF5859243F5CB000CA58E1 /* ZGRatingViewExample */ = {
-			isa = PBXGroup;
-			children = (
-				32CF585A243F5CB000CA58E1 /* AppDelegate.swift */,
-				32CF585C243F5CB000CA58E1 /* SceneDelegate.swift */,
-				32CF585E243F5CB000CA58E1 /* ViewController.swift */,
-				32CF5860243F5CB000CA58E1 /* Main.storyboard */,
-				32CF5863243F5CB100CA58E1 /* Assets.xcassets */,
-				32CF5865243F5CB100CA58E1 /* LaunchScreen.storyboard */,
-				32CF5868243F5CB100CA58E1 /* Info.plist */,
-			);
-			path = ZGRatingViewExample;
 			sourceTree = "<group>";
 		};
 		32CF587A243F5D1900CA58E1 /* podspec Metadata */ = {
@@ -346,9 +318,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32CF5867243F5CB100CA58E1 /* LaunchScreen.storyboard in Resources */,
-				32CF5864243F5CB100CA58E1 /* Assets.xcassets in Resources */,
-				32CF5862243F5CB000CA58E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,9 +354,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32CF585F243F5CB000CA58E1 /* ViewController.swift in Sources */,
-				32CF585B243F5CB000CA58E1 /* AppDelegate.swift in Sources */,
-				32CF585D243F5CB000CA58E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,25 +378,6 @@
 			targetProxy = 32CF586E243F5CB100CA58E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		32CF5860243F5CB000CA58E1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32CF5861243F5CB000CA58E1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		32CF5865243F5CB100CA58E1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32CF5866243F5CB100CA58E1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		32CF584C243F5C7D00CA58E1 /* Debug */ = {
@@ -681,7 +628,6 @@
 		32CF5878243F5CB100CA58E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
@@ -703,7 +649,6 @@
 		32CF5879243F5CB100CA58E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
