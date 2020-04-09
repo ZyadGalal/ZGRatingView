@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
- class ZGRatingView: UIView {
+ final public class ZGRatingView: UIView {
     //IBOutlet Collection
     @IBOutlet var starsImageView: [UIImageView]!
     @IBOutlet var progressBarWidthConstraints: [NSLayoutConstraint]!
