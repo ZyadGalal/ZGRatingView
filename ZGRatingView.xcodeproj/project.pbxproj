@@ -10,6 +10,12 @@
 		32CF5844243F5C7D00CA58E1 /* ZGRatingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CF583A243F5C7D00CA58E1 /* ZGRatingView.framework */; };
 		32CF5849243F5C7D00CA58E1 /* ZGRatingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF5848243F5C7D00CA58E1 /* ZGRatingViewTests.swift */; };
 		32CF584B243F5C7D00CA58E1 /* ZGRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CF583D243F5C7D00CA58E1 /* ZGRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CF585B243F5CB000CA58E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF585A243F5CB000CA58E1 /* AppDelegate.swift */; };
+		32CF585D243F5CB000CA58E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF585C243F5CB000CA58E1 /* SceneDelegate.swift */; };
+		32CF585F243F5CB000CA58E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF585E243F5CB000CA58E1 /* ViewController.swift */; };
+		32CF5862243F5CB000CA58E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CF5860243F5CB000CA58E1 /* Main.storyboard */; };
+		32CF5864243F5CB100CA58E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CF5863243F5CB100CA58E1 /* Assets.xcassets */; };
+		32CF5867243F5CB100CA58E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CF5865243F5CB100CA58E1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +26,13 @@
 			remoteGlobalIDString = 32CF5839243F5C7D00CA58E1;
 			remoteInfo = ZGRatingView;
 		};
+		32CF586E243F5CB100CA58E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32CF5831243F5C7D00CA58E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32CF5857243F5CB000CA58E1;
+			remoteInfo = ZGRatingViewExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +42,15 @@
 		32CF5843243F5C7D00CA58E1 /* ZGRatingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGRatingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CF5848243F5C7D00CA58E1 /* ZGRatingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGRatingViewTests.swift; sourceTree = "<group>"; };
 		32CF584A243F5C7D00CA58E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CF5858243F5CB000CA58E1 /* ZGRatingViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGRatingViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32CF585A243F5CB000CA58E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32CF585C243F5CB000CA58E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32CF585E243F5CB000CA58E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32CF5861243F5CB000CA58E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32CF5863243F5CB100CA58E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32CF5866243F5CB100CA58E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32CF5868243F5CB100CA58E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CF586D243F5CB100CA58E1 /* ZGRatingViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGRatingViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,14 +69,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32CF5855243F5CB000CA58E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32CF586A243F5CB100CA58E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		32CF5830243F5C7D00CA58E1 = {
 			isa = PBXGroup;
 			children = (
+				32CF587A243F5D1900CA58E1 /* podspec Metadata */,
 				32CF583C243F5C7D00CA58E1 /* ZGRatingView */,
 				32CF5847243F5C7D00CA58E1 /* ZGRatingViewTests */,
+				32CF5859243F5CB000CA58E1 /* ZGRatingViewExample */,
 				32CF583B243F5C7D00CA58E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +102,8 @@
 			children = (
 				32CF583A243F5C7D00CA58E1 /* ZGRatingView.framework */,
 				32CF5843243F5C7D00CA58E1 /* ZGRatingViewTests.xctest */,
+				32CF5858243F5CB000CA58E1 /* ZGRatingViewExample.app */,
+				32CF586D243F5CB100CA58E1 /* ZGRatingViewExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +124,27 @@
 				32CF584A243F5C7D00CA58E1 /* Info.plist */,
 			);
 			path = ZGRatingViewTests;
+			sourceTree = "<group>";
+		};
+		32CF5859243F5CB000CA58E1 /* ZGRatingViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				32CF585A243F5CB000CA58E1 /* AppDelegate.swift */,
+				32CF585C243F5CB000CA58E1 /* SceneDelegate.swift */,
+				32CF585E243F5CB000CA58E1 /* ViewController.swift */,
+				32CF5860243F5CB000CA58E1 /* Main.storyboard */,
+				32CF5863243F5CB100CA58E1 /* Assets.xcassets */,
+				32CF5865243F5CB100CA58E1 /* LaunchScreen.storyboard */,
+				32CF5868243F5CB100CA58E1 /* Info.plist */,
+			);
+			path = ZGRatingViewExample;
+			sourceTree = "<group>";
+		};
+		32CF587A243F5D1900CA58E1 /* podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "podspec Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +197,41 @@
 			productReference = 32CF5843243F5C7D00CA58E1 /* ZGRatingViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		32CF5857243F5CB000CA58E1 /* ZGRatingViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32CF5874243F5CB100CA58E1 /* Build configuration list for PBXNativeTarget "ZGRatingViewExample" */;
+			buildPhases = (
+				32CF5854243F5CB000CA58E1 /* Sources */,
+				32CF5855243F5CB000CA58E1 /* Frameworks */,
+				32CF5856243F5CB000CA58E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGRatingViewExample;
+			productName = ZGRatingViewExample;
+			productReference = 32CF5858243F5CB000CA58E1 /* ZGRatingViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32CF586C243F5CB100CA58E1 /* ZGRatingViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32CF5877243F5CB100CA58E1 /* Build configuration list for PBXNativeTarget "ZGRatingViewExampleTests" */;
+			buildPhases = (
+				32CF5869243F5CB100CA58E1 /* Sources */,
+				32CF586A243F5CB100CA58E1 /* Frameworks */,
+				32CF586B243F5CB100CA58E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32CF586F243F5CB100CA58E1 /* PBXTargetDependency */,
+			);
+			name = ZGRatingViewExampleTests;
+			productName = ZGRatingViewExampleTests;
+			productReference = 32CF586D243F5CB100CA58E1 /* ZGRatingViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +247,13 @@
 					};
 					32CF5842243F5C7D00CA58E1 = {
 						CreatedOnToolsVersion = 11.4;
+					};
+					32CF5857243F5CB000CA58E1 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					32CF586C243F5CB100CA58E1 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 32CF5857243F5CB000CA58E1;
 					};
 				};
 			};
@@ -169,6 +272,8 @@
 			targets = (
 				32CF5839243F5C7D00CA58E1 /* ZGRatingView */,
 				32CF5842243F5C7D00CA58E1 /* ZGRatingViewTests */,
+				32CF5857243F5CB000CA58E1 /* ZGRatingViewExample */,
+				32CF586C243F5CB100CA58E1 /* ZGRatingViewExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -182,6 +287,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		32CF5841243F5C7D00CA58E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32CF5856243F5CB000CA58E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CF5867243F5CB100CA58E1 /* LaunchScreen.storyboard in Resources */,
+				32CF5864243F5CB100CA58E1 /* Assets.xcassets in Resources */,
+				32CF5862243F5CB000CA58E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32CF586B243F5CB100CA58E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,6 +328,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32CF5854243F5CB000CA58E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CF585F243F5CB000CA58E1 /* ViewController.swift in Sources */,
+				32CF585B243F5CB000CA58E1 /* AppDelegate.swift in Sources */,
+				32CF585D243F5CB000CA58E1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32CF5869243F5CB100CA58E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,7 +353,31 @@
 			target = 32CF5839243F5C7D00CA58E1 /* ZGRatingView */;
 			targetProxy = 32CF5845243F5C7D00CA58E1 /* PBXContainerItemProxy */;
 		};
+		32CF586F243F5CB100CA58E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32CF5857243F5CB000CA58E1 /* ZGRatingViewExample */;
+			targetProxy = 32CF586E243F5CB100CA58E1 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32CF5860243F5CB000CA58E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32CF5861243F5CB000CA58E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32CF5865243F5CB100CA58E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32CF5866243F5CB100CA58E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		32CF584C243F5C7D00CA58E1 /* Debug */ = {
@@ -421,6 +584,86 @@
 			};
 			name = Release;
 		};
+		32CF5875243F5CB100CA58E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
+				INFOPLIST_FILE = ZGRatingViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZyadGalal.ZGRatingViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32CF5876243F5CB100CA58E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
+				INFOPLIST_FILE = ZGRatingViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZyadGalal.ZGRatingViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32CF5878243F5CB100CA58E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
+				INFOPLIST_FILE = ZGRatingViewExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZyadGalal.ZGRatingViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGRatingViewExample.app/ZGRatingViewExample";
+			};
+			name = Debug;
+		};
+		32CF5879243F5CB100CA58E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
+				INFOPLIST_FILE = ZGRatingViewExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZyadGalal.ZGRatingViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGRatingViewExample.app/ZGRatingViewExample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -447,6 +690,24 @@
 			buildConfigurations = (
 				32CF5852243F5C7D00CA58E1 /* Debug */,
 				32CF5853243F5C7D00CA58E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32CF5874243F5CB100CA58E1 /* Build configuration list for PBXNativeTarget "ZGRatingViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32CF5875243F5CB100CA58E1 /* Debug */,
+				32CF5876243F5CB100CA58E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32CF5877243F5CB100CA58E1 /* Build configuration list for PBXNativeTarget "ZGRatingViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32CF5878243F5CB100CA58E1 /* Debug */,
+				32CF5879243F5CB100CA58E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
