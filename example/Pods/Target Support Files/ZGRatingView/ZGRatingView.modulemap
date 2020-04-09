@@ -1,0 +1,6 @@
+framework module ZGRatingView {
+  umbrella header "ZGRatingView-umbrella.h"
+
+  export *
+  module * { export * }
+}
