@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
- class RatingSummaryView: UIView {
+ class ZGRatingView: UIView {
     //IBOutlet Collection
     @IBOutlet var starsImageView: [UIImageView]!
     @IBOutlet var progressBarWidthConstraints: [NSLayoutConstraint]!
@@ -175,7 +175,7 @@ import UIKit
     }
 }
 
-private extension RatingSummaryView {
+private extension ZGRatingView {
     
     func xibSetup() {
         backgroundColor = UIColor.white
