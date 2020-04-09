@@ -16,6 +16,14 @@
 		32CF5862243F5CB000CA58E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CF5860243F5CB000CA58E1 /* Main.storyboard */; };
 		32CF5864243F5CB100CA58E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CF5863243F5CB100CA58E1 /* Assets.xcassets */; };
 		32CF5867243F5CB100CA58E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CF5865243F5CB100CA58E1 /* LaunchScreen.storyboard */; };
+		32CF587D243F5E7800CA58E1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 32CF587B243F5E7800CA58E1 /* LICENSE */; };
+		32CF587E243F5E7800CA58E1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32CF587C243F5E7800CA58E1 /* README.md */; };
+		32CF5881243F5EDA00CA58E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CF5880243F5EDA00CA58E1 /* Assets.xcassets */; };
+		32CF5885243F5EF200CA58E1 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF5883243F5EF200CA58E1 /* UIViewExtension.swift */; };
+		32CF5886243F5EF200CA58E1 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF5884243F5EF200CA58E1 /* UIImageExtension.swift */; };
+		32CF588A243F5F0900CA58E1 /* ZGRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CF5887243F5F0900CA58E1 /* ZGRatingView.xib */; };
+		32CF588B243F5F0900CA58E1 /* ZGRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF5888243F5F0900CA58E1 /* ZGRatingView.swift */; };
+		32CF588C243F5F0900CA58E1 /* ProgressBarColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF5889243F5F0900CA58E1 /* ProgressBarColorStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		32CF5866243F5CB100CA58E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32CF5868243F5CB100CA58E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32CF586D243F5CB100CA58E1 /* ZGRatingViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGRatingViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32CF587B243F5E7800CA58E1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		32CF587C243F5E7800CA58E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		32CF5880243F5EDA00CA58E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ZGRatingView/Assets/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		32CF5883243F5EF200CA58E1 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = ZGRatingView/Classes/Extension/UIViewExtension.swift; sourceTree = SOURCE_ROOT; };
+		32CF5884243F5EF200CA58E1 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = ZGRatingView/Classes/Extension/UIImageExtension.swift; sourceTree = SOURCE_ROOT; };
+		32CF5887243F5F0900CA58E1 /* ZGRatingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGRatingView.xib; path = Classes/ZGRatingView.xib; sourceTree = "<group>"; };
+		32CF5888243F5F0900CA58E1 /* ZGRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZGRatingView.swift; path = Classes/ZGRatingView.swift; sourceTree = "<group>"; };
+		32CF5889243F5F0900CA58E1 /* ProgressBarColorStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressBarColorStyle.swift; path = Classes/ProgressBarColorStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +127,11 @@
 		32CF583C243F5C7D00CA58E1 /* ZGRatingView */ = {
 			isa = PBXGroup;
 			children = (
+				32CF5889243F5F0900CA58E1 /* ProgressBarColorStyle.swift */,
+				32CF5888243F5F0900CA58E1 /* ZGRatingView.swift */,
+				32CF5887243F5F0900CA58E1 /* ZGRatingView.xib */,
+				32CF5882243F5EDE00CA58E1 /* Extension */,
+				32CF587F243F5EC200CA58E1 /* Resources */,
 				32CF583D243F5C7D00CA58E1 /* ZGRatingView.h */,
 				32CF583E243F5C7D00CA58E1 /* Info.plist */,
 			);
@@ -143,8 +164,27 @@
 		32CF587A243F5D1900CA58E1 /* podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				32CF587B243F5E7800CA58E1 /* LICENSE */,
+				32CF587C243F5E7800CA58E1 /* README.md */,
 			);
 			path = "podspec Metadata";
+			sourceTree = "<group>";
+		};
+		32CF587F243F5EC200CA58E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32CF5880243F5EDA00CA58E1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		32CF5882243F5EDE00CA58E1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				32CF5884243F5EF200CA58E1 /* UIImageExtension.swift */,
+				32CF5883243F5EF200CA58E1 /* UIViewExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +284,7 @@
 				TargetAttributes = {
 					32CF5839243F5C7D00CA58E1 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					32CF5842243F5C7D00CA58E1 = {
 						CreatedOnToolsVersion = 11.4;
@@ -283,6 +324,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CF587E243F5E7800CA58E1 /* README.md in Resources */,
+				32CF5881243F5EDA00CA58E1 /* Assets.xcassets in Resources */,
+				32CF588A243F5F0900CA58E1 /* ZGRatingView.xib in Resources */,
+				32CF587D243F5E7800CA58E1 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +362,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CF588C243F5F0900CA58E1 /* ProgressBarColorStyle.swift in Sources */,
+				32CF5885243F5EF200CA58E1 /* UIViewExtension.swift in Sources */,
+				32CF5886243F5EF200CA58E1 /* UIImageExtension.swift in Sources */,
+				32CF588B243F5F0900CA58E1 /* ZGRatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +552,7 @@
 		32CF584F243F5C7D00CA58E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
@@ -519,6 +569,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ZyadGalal.ZGRatingView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -527,6 +578,7 @@
 		32CF5850243F5C7D00CA58E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
@@ -551,6 +603,7 @@
 		32CF5852243F5C7D00CA58E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
 				INFOPLIST_FILE = ZGRatingViewTests/Info.plist;
@@ -569,6 +622,7 @@
 		32CF5853243F5C7D00CA58E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
 				INFOPLIST_FILE = ZGRatingViewTests/Info.plist;
