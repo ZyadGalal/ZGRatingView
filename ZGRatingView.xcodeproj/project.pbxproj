@@ -24,6 +24,7 @@
 		32CF588A243F5F0900CA58E1 /* ZGRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CF5887243F5F0900CA58E1 /* ZGRatingView.xib */; };
 		32CF588B243F5F0900CA58E1 /* ZGRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF5888243F5F0900CA58E1 /* ZGRatingView.swift */; };
 		32CF588C243F5F0900CA58E1 /* ProgressBarColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF5889243F5F0900CA58E1 /* ProgressBarColorStyle.swift */; };
+		32CF588E243F5F7200CA58E1 /* ZGRatingView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 32CF588D243F5F7200CA58E1 /* ZGRatingView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		32CF5887243F5F0900CA58E1 /* ZGRatingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGRatingView.xib; path = Classes/ZGRatingView.xib; sourceTree = "<group>"; };
 		32CF5888243F5F0900CA58E1 /* ZGRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZGRatingView.swift; path = Classes/ZGRatingView.swift; sourceTree = "<group>"; };
 		32CF5889243F5F0900CA58E1 /* ProgressBarColorStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressBarColorStyle.swift; path = Classes/ProgressBarColorStyle.swift; sourceTree = "<group>"; };
+		32CF588D243F5F7200CA58E1 /* ZGRatingView.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZGRatingView.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 		32CF587A243F5D1900CA58E1 /* podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				32CF588D243F5F7200CA58E1 /* ZGRatingView.podspec */,
 				32CF587B243F5E7800CA58E1 /* LICENSE */,
 				32CF587C243F5E7800CA58E1 /* README.md */,
 			);
@@ -325,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32CF587E243F5E7800CA58E1 /* README.md in Resources */,
+				32CF588E243F5F7200CA58E1 /* ZGRatingView.podspec in Resources */,
 				32CF5881243F5EDA00CA58E1 /* Assets.xcassets in Resources */,
 				32CF588A243F5F0900CA58E1 /* ZGRatingView.xib in Resources */,
 				32CF587D243F5E7800CA58E1 /* LICENSE in Resources */,
