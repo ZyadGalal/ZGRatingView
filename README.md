@@ -42,7 +42,7 @@ pod 'ZGRatingView', '~> 0.1.4'
 
 ## Usage
 ### Storyboard
-<img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/usage.gif" width="800" height="600">
+<img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/usage.gif" width="800" height="500">
 ## Author
 
 Zyad Galal, dev_zyad_galal@yahoo.com
