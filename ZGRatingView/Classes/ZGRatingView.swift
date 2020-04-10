@@ -10,14 +10,13 @@ import UIKit
 
 @IBDesignable
  final public class ZGRatingView: UIView {
-    //IBOutlet Collection
+    //private IBOutlet Collection
     @IBOutlet private (set) var starsImageView: [UIImageView]!
     @IBOutlet private (set) var progressBarWidthConstraints: [NSLayoutConstraint]!
     
-    //IBOutlet
+    // private IBOutlet
     @IBOutlet private (set) weak var barContainerStackView: UIStackView!
     
-    //IBOutlet
     @IBOutlet private (set) weak var containerView: UIView!
     @IBOutlet private (set) weak var currentAverageLabel: UILabel!
     @IBOutlet private (set) weak var totalAverageLabel: UILabel!
