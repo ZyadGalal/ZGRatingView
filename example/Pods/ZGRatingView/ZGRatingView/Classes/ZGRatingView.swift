@@ -30,9 +30,9 @@ import UIKit
     
     //MARK :- Private Inspectable
     @IBInspectable private (set) var animationTime: CGFloat = 1.0
-    @IBInspectable private (set) var isProgressStyleGradient: Bool = false {
+    @IBInspectable private (set) var isGradient: Bool = false {
         didSet {
-            progressStyle = isProgressStyleGradient == false ? .Solid : .Gradient
+            progressStyle = isGradient == false ? .Solid : .Gradient
             setProgressTintColor()
         }
     }
@@ -98,7 +98,7 @@ import UIKit
             self.animationTime = animationTime
         }
         if let GradientProgressBar = isProgressStyleGradient {
-            self.isProgressStyleGradient = GradientProgressBar
+            self.isGradient = GradientProgressBar
         }
         if let progressTint = progressTint {
             self.progressTint = progressTint

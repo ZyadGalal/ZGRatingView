@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var ratingView: ZGRatingView!
     override func viewDidLoad() {
         super.viewDidLoad()
+
         ratingView.calculateStarsValues(totalRating: 5, fiveStars: 2, fourStars: 2, threeStars: 0, twoStars: 0, oneStar:1)
     }
 

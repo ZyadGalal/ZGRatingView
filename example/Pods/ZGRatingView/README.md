@@ -11,14 +11,18 @@ ZGRatingView is a layout that adds a "Rating & Reviews" bar to your app, similar
 - [Usage](#usage)
     - [Storyboard](#storyboard)
     - [Customize UI](#customizeui)
-- [Todo](#todo)
-- [Android Version](#android)
 - [Author](#author)
 - [Credits](#credits)
 - [License](#license)
 
 
 ## Screenshots
+
+| Style    | Screenshot  |
+|:-------------:|:-------------:|
+| Default bar color | <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/2.png" width="250" height="500"> |
+| Custom Solid bar color | <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/3.png" width="250" height="500"> |
+| Custom Gradient bar color  | <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/1.png" width="250" height="500">  |
 
 ## Requirements
 
@@ -33,12 +37,12 @@ ZGRatingView is a layout that adds a "Rating & Reviews" bar to your app, similar
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate SwiftyMenu into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'ZGRatingView', '~> 0.1.3'
+pod 'ZGRatingView', '~> 0.1.4'
 ```
 
 ## Usage
 ### Storyboard
-
+<img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/usage.gif" width="800" height="600">
 ## Author
 
 Zyad Galal, dev_zyad_galal@yahoo.com
