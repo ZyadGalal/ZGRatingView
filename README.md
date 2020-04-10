@@ -9,7 +9,6 @@
 ZGRatingView is a layout that adds a "Rating & Reviews" bar to your app, similar to the ones seen on Apple App Store . It provides a beautiful visual summary of the number of raters along with the ratings they gave on a specific item.
 
 </br>
-</br>
 
 - [Screenshots](#screenshots)
 - [Requirements](#requirements)
