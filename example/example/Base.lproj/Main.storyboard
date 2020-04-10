@@ -21,6 +21,22 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="1JY-Yh-j66"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="barWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isProgressStyleGradient" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="progressTint">
+                                        <color key="value" red="0.26274509800000001" green="0.56862745100000001" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="starsImage" value="star_icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startProgressTint">
+                                        <color key="value" red="0.26274509800000001" green="0.56862745100000001" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endProgressTint">
+                                        <color key="value" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -41,4 +57,7 @@
             <point key="canvasLocation" x="139" y="138"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="star_icon" width="20" height="20"/>
+    </resources>
 </document>

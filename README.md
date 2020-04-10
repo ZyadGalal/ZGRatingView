@@ -11,14 +11,17 @@ ZGRatingView is a layout that adds a "Rating & Reviews" bar to your app, similar
 - [Usage](#usage)
     - [Storyboard](#storyboard)
     - [Customize UI](#customizeui)
-- [Todo](#todo)
-- [Android Version](#android)
 - [Author](#author)
 - [Credits](#credits)
 - [License](#license)
 
 
 ## Screenshots
+
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| Default bar color      | Custom Solid bar color      |   Custom Gradient bar color |
+
 
 ## Requirements
 

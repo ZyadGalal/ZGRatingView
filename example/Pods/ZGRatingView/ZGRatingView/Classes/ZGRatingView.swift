@@ -92,7 +92,7 @@ import UIKit
         xibSetup()
     }
     
-    func setupRatingView(animationTime: CGFloat?,isProgressStyleGradient: Bool?,progressTint: UIColor?,startProgressTint: UIColor?,endProgressTint: UIColor?,starsImage: UIImage?,barsSpacing: CGFloat?,barWidth: CGFloat?){
+    public func setupRatingView(animationTime: CGFloat?,isProgressStyleGradient: Bool?,progressTint: UIColor?,startProgressTint: UIColor?,endProgressTint: UIColor?,starsImage: UIImage?,barsSpacing: CGFloat?,barWidth: CGFloat?){
         
         if let animationTime = animationTime {
             self.animationTime = animationTime
@@ -120,7 +120,7 @@ import UIKit
         }
     }
     
-    func calculateStarsValues(totalRating: Int,fiveStars: Float,fourStars: Float,threeStars: Float,twoStars: Float,oneStar: Float){
+    public func calculateStarsValues(totalRating: Int,fiveStars: Float,fourStars: Float,threeStars: Float,twoStars: Float,oneStar: Float){
         let totalRating = Float(totalRating)
 
         if totalRating == (fiveStars + fourStars + threeStars + twoStars + oneStar) {
