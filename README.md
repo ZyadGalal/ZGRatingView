@@ -17,9 +17,9 @@ ZGRatingView is a layout that adds a "Rating & Reviews" bar to your app, similar
 
 
 ## Screenshots
-https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202020-04-10%20at%2005.20.56.png
+
 | :-------------: |:-------------:| :-------------:|
-| <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202020-04-10%20at%2005.18.31.png" width="250" height="500">     | <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202020-04-10%20at%2005.20.56.png" width="250" height="500"> |<img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202020-04-10%20at%2005.21.27.png" width="250" height="500">  |
+| <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/1.png" width="250" height="500">     | <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/2.png" width="250" height="500"> |<img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/3.png" width="250" height="500">  |
 | Default bar color      | Custom Solid bar color      |   Custom Gradient bar color |
 
 
