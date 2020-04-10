@@ -55,11 +55,18 @@ You can customize **ZGRatingView** from Code as following :
 
 ```swift
 
-ratingView.setupRatingView(animationTime: 1.0, isProgressStyleGradient: false, progressTint: UIColor.Blue, startProgressTint: nil, endProgressTint: nil, starsImage: nil, barsSpacing: 2, barWidth: 3)
+ratingView.setupRatingView(animationTime: 1.0,
+                            isProgressStyleGradient: false,
+                            progressTint: UIColor.Blue,
+                            startProgressTint: nil,
+                            endProgressTint: nil,
+                            starsImage: nil,
+                            barsSpacing: 2,
+                            barWidth: 3)
 ````
 or from Storyboard as following : 
 
-<img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/Customize.PNG" width="522" height="460">
+<img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/Customize.png" width="522" height="460">
 
 ## Author
 
