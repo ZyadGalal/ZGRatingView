@@ -43,6 +43,24 @@ pod 'ZGRatingView', '~> 0.1.4'
 ## Usage
 ### Storyboard
 <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/usage.gif" width="800" height="500">
+
+Then from your Storyboard you can connect your Outlet and set rating values
+```swift
+
+ratingView.calculateStarsValues(totalRating: 5, fiveStars: 2, fourStars: 2, threeStars: 0, twoStars: 0, oneStar:1)
+````
+
+### CustomizeUI
+You can customize **ZGRatingView** from Code as following : 
+
+```swift
+
+ratingView.setupRatingView(animationTime: 1.0, isProgressStyleGradient: false, progressTint: UIColor.Blue, startProgressTint: nil, endProgressTint: nil, starsImage: nil, barsSpacing: 2, barWidth: 3)
+````
+or from Storyboard as following : 
+
+<img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/Customize.PNG" width="522" height="460">
+
 ## Author
 
 Zyad Galal, dev_zyad_galal@yahoo.com
