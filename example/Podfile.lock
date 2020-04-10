@@ -1,5 +1,5 @@
 PODS:
-  - ZGRatingView (0.1.4)
+  - ZGRatingView (0.1.5)
 
 DEPENDENCIES:
   - ZGRatingView
@@ -9,7 +9,7 @@ SPEC REPOS:
     - ZGRatingView
 
 SPEC CHECKSUMS:
-  ZGRatingView: 0f99e761aea521c4084bf71f3a63142c37a0a3bf
+  ZGRatingView: d8091308b5f6ed8823cfa89b664bcbdd47bb0a08
 
 PODFILE CHECKSUM: 010f5c079cd213c267e2b5c78521eddf65508e1e
 

@@ -47,7 +47,12 @@ pod 'ZGRatingView', '~> 0.1.5'
 Then from your Storyboard you can connect your Outlet and set rating values
 ```swift
 
-ratingView.calculateStarsValues(totalRating: 5, fiveStars: 2, fourStars: 2, threeStars: 0, twoStars: 0, oneStar:1)
+ratingView.calculateStarsValues(totalRating: 5,
+                                fiveStars: 2,
+                                fourStars: 2,
+                                threeStars: 0,
+                                twoStars: 0,
+                                oneStar:1)
 ````
 
 ### CustomizeUI

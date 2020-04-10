@@ -16,4 +16,12 @@ extension UIView {
         let nib = UINib(nibName: nibName, bundle: bundle)
         return nib.instantiate(withOwner: self, options: nil).first as! UIView
     }
+    
+    func xibSetup() {
+            backgroundColor = UIColor.white
+            // use bounds not frame or it'll be offset
+            self.frame = bounds
+            // Adding custom subview on top of our view
+            addSubview(self)
+}
 }
