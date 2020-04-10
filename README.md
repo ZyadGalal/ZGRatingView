@@ -5,7 +5,8 @@
 </br>
 ZGRatingView is a layout that adds a "Rating & Reviews" bar to your app, similar to the ones seen on Apple App Store . It provides a beautiful visual summary of the number of raters along with the ratings they gave on a specific item.
 
-
+</br>
+</br>
 - [Screenshots](#screenshots)
 - [Requirements](#requirements)
 - [Installation](#installation)
@@ -39,7 +40,7 @@ ZGRatingView is a layout that adds a "Rating & Reviews" bar to your app, similar
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate SwiftyMenu into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'ZGRatingView', '~> 0.1.5'
+pod 'ZGRatingView', '~> 0.1.6'
 ```
 
 ## Usage
@@ -86,5 +87,6 @@ ZGRatingView is available under the MIT license. See the `LICENSE` file for more
 ## Credits
 
 You can find me on Twitter [@ZyadMGalal](https://twitter.com/ZyadMGalal).
+</br>
 You can find me on LinkedIn [@zyad-galal](https://www.linkedin.com/in/zyad-galal/).
 

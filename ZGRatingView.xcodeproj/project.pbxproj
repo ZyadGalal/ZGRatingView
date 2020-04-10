@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32C4F55524409D00000B6107 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 32C4F55424409D00000B6107 /* CHANGELOG.md */; };
 		32CF5844243F5C7D00CA58E1 /* ZGRatingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CF583A243F5C7D00CA58E1 /* ZGRatingView.framework */; };
 		32CF5849243F5C7D00CA58E1 /* ZGRatingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF5848243F5C7D00CA58E1 /* ZGRatingViewTests.swift */; };
 		32CF584B243F5C7D00CA58E1 /* ZGRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CF583D243F5C7D00CA58E1 /* ZGRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32C4F55424409D00000B6107 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = SOURCE_ROOT; };
 		32CF583A243F5C7D00CA58E1 /* ZGRatingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZGRatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CF583D243F5C7D00CA58E1 /* ZGRatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGRatingView.h; sourceTree = "<group>"; };
 		32CF583E243F5C7D00CA58E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		32CF587A243F5D1900CA58E1 /* podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				32C4F55424409D00000B6107 /* CHANGELOG.md */,
 				32CF588D243F5F7200CA58E1 /* ZGRatingView.podspec */,
 				32CF587B243F5E7800CA58E1 /* LICENSE */,
 				32CF587C243F5E7800CA58E1 /* README.md */,
@@ -304,6 +307,7 @@
 				32CF5881243F5EDA00CA58E1 /* Assets.xcassets in Resources */,
 				32CF588A243F5F0900CA58E1 /* ZGRatingView.xib in Resources */,
 				32CF587D243F5E7800CA58E1 /* LICENSE in Resources */,
+				32C4F55524409D00000B6107 /* CHANGELOG.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
