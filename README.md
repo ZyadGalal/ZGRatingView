@@ -20,9 +20,9 @@ ZGRatingView is a layout that adds a "Rating & Reviews" bar to your app, similar
 
 | Style    | Screenshot  |
 |:-------------:|:-------------:|
-| Default bar color | <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/1.png" width="250" height="500"> |
-| Custom Solid bar color | <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/2.png" width="250" height="500"> |
-| Custom Gradient bar color  | <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/3.png" width="250" height="500">  |
+| Default bar color | <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/2.png" width="250" height="500"> |
+| Custom Solid bar color | <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/3.png" width="250" height="500"> |
+| Custom Gradient bar color  | <img src="https://github.com/ZyadGalal/ZGRatingView/blob/master/Screenshots/1.png" width="250" height="500">  |
 
 ## Requirements
 
