@@ -6,10 +6,12 @@ on:
     
 jobs:
   build:
-  runs-on: macOS-latest
+    name: Application build
+    runs-on: macOS-latest
     
     steps:
-    - uses: actions/checkout@v1
+    - name: Checkout repository (#1)
+      uses: actions/checkout@v1
     - name: Publish to CocoaPod register
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
