@@ -86,4 +86,5 @@ ZGRatingView is available under the MIT license. See the `LICENSE` file for more
 ## Credits
 
 You can find me on Twitter [@ZyadMGalal](https://twitter.com/ZyadMGalal).
+You can find me on LinkedIn [@zyad-galal](https://www.linkedin.com/in/zyad-galal/).
 
