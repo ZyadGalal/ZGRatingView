@@ -11,28 +11,28 @@ import UIKit
 @IBDesignable
  final public class ZGRatingView: UIView {
     //IBOutlet Collection
-    @IBOutlet var starsImageView: [UIImageView]!
-    @IBOutlet var progressBarWidthConstraints: [NSLayoutConstraint]!
+    @IBOutlet private (set) var starsImageView: [UIImageView]!
+    @IBOutlet private (set) var progressBarWidthConstraints: [NSLayoutConstraint]!
     
     //IBOutlet
-    @IBOutlet weak var barContainerStackView: UIStackView!
+    @IBOutlet private (set) weak var barContainerStackView: UIStackView!
     
     //IBOutlet
-    @IBOutlet private weak var containerView: UIView!
-    @IBOutlet private weak var currentAverageLabel: UILabel!
-    @IBOutlet private weak var totalAverageLabel: UILabel!
-    @IBOutlet private weak var fiveRatingProgressView: UIProgressView!
-    @IBOutlet private weak var fourRatingProgressView: UIProgressView!
-    @IBOutlet private weak var threeRatingProgressView: UIProgressView!
-    @IBOutlet private weak var twoRatingProgressView: UIProgressView!
-    @IBOutlet private weak var oneRatingProgressView: UIProgressView!
-    @IBOutlet private weak var totalRatingLabel: UILabel!
+    @IBOutlet private (set) weak var containerView: UIView!
+    @IBOutlet private (set) weak var currentAverageLabel: UILabel!
+    @IBOutlet private (set) weak var totalAverageLabel: UILabel!
+    @IBOutlet private (set) weak var fiveRatingProgressView: UIProgressView!
+    @IBOutlet private (set) weak var fourRatingProgressView: UIProgressView!
+    @IBOutlet private (set) weak var threeRatingProgressView: UIProgressView!
+    @IBOutlet private (set) weak var twoRatingProgressView: UIProgressView!
+    @IBOutlet private (set) weak var oneRatingProgressView: UIProgressView!
+    @IBOutlet private (set) weak var totalRatingLabel: UILabel!
     
     //MARK :- Private Inspectable
     @IBInspectable private (set) var animationTime: CGFloat = 1.0
     @IBInspectable private (set) var isGradient: Bool = false {
         didSet {
-            progressStyle = isGradient == false ? .Solid : .Gradient
+            progressStyle = isGradient == false ? .solid : .gradient
             setProgressTintColor()
         }
     }
@@ -76,20 +76,23 @@ import UIKit
     }
     
     //Private Variables
-    private var progressStyle: ProgressBarColorStyle = .Solid
+    private var progressStyle: ProgressBarColorStyle = .solid
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         
         // Setup view from .xib file
-        xibSetup()
+        containerView = loadNib()
+        containerView.xibSetup()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         // Setup view from .xib file
-        xibSetup()
+        containerView = loadNib()
+        containerView.xibSetup()
+        
     }
     
     public func setupRatingView(animationTime: CGFloat?,isProgressStyleGradient: Bool?,progressTint: UIColor?,startProgressTint: UIColor?,endProgressTint: UIColor?,starsImage: UIImage?,barsSpacing: CGFloat?,barWidth: CGFloat?){
@@ -157,14 +160,13 @@ import UIKit
     }
     
     private func setProgressTintColor(){
-        if progressStyle == .Solid {
+        if progressStyle == .solid {
             fiveRatingProgressView.tintColor = progressTint
             fourRatingProgressView.tintColor = progressTint
             threeRatingProgressView.tintColor = progressTint
             twoRatingProgressView.tintColor = progressTint
             oneRatingProgressView.tintColor = progressTint
-        }
-        else if progressStyle == .Gradient {
+        } else if progressStyle == .gradient {
             guard let gradientImage = UIImage.gradientImage(with: fiveRatingProgressView.frame, colors: [startProgressTint.cgColor , endProgressTint.cgColor]) else{return}
             fiveRatingProgressView.progressImage = gradientImage
             fourRatingProgressView.progressImage = gradientImage
@@ -172,28 +174,6 @@ import UIKit
             twoRatingProgressView.progressImage = gradientImage
             oneRatingProgressView.progressImage = gradientImage
         }
-    }
-}
-
-private extension ZGRatingView {
-    
-    func xibSetup() {
-        backgroundColor = UIColor.white
-        containerView = loadNib()
-        // use bounds not frame or it'll be offset
-        containerView.frame = bounds
-        // Adding custom subview on top of our view
-        addSubview(containerView)
-        
-//        set constraints for containerView
-        containerView.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            containerView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
-            containerView.topAnchor.constraint(equalTo: self.topAnchor),
-            containerView.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-            containerView.bottomAnchor.constraint(equalTo: self.bottomAnchor)
-
-        ])
     }
 }
 

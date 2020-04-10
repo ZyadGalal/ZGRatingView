@@ -10,6 +10,5 @@ import Foundation
 
 
 enum ProgressBarColorStyle {
-    case Solid
-    case Gradient
+    case solid,gradient
 }
