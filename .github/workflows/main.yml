@@ -1,8 +1,10 @@
 name: CI
 on:
-  push:
+  pull_request:
     branches:
     - master
+    tags:
+    - 'v*.*.*'
     
 jobs:
   build:
