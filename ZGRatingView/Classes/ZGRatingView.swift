@@ -16,7 +16,6 @@ import UIKit
     
     // private IBOutlet
     @IBOutlet private (set) weak var barContainerStackView: UIStackView!
-    
     @IBOutlet private (set) weak var containerView: UIView!
     @IBOutlet private (set) weak var currentAverageLabel: UILabel!
     @IBOutlet private (set) weak var totalAverageLabel: UILabel!
@@ -77,6 +76,7 @@ import UIKit
     //Private Variables
     private var progressStyle: ProgressBarColorStyle = .solid
     
+    //view init
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -93,7 +93,7 @@ import UIKit
         containerView.xibSetup()
         
     }
-    
+    //MARK:- setup rating view >> used instead of using storyboard to customize rating view design
     public func setupRatingView(animationTime: CGFloat?,isProgressStyleGradient: Bool?,progressTint: UIColor?,startProgressTint: UIColor?,endProgressTint: UIColor?,starsImage: UIImage?,barsSpacing: CGFloat?,barWidth: CGFloat?){
         
         if let animationTime = animationTime {
@@ -121,7 +121,7 @@ import UIKit
             self.barWidth = barWidth
         }
     }
-    
+    //MARK: - calculate average for every star based on total rating and number of stars given to every star rating
     public func calculateStarsValues(totalRating: Int,fiveStars: Float,fourStars: Float,threeStars: Float,twoStars: Float,oneStar: Float){
         let totalRating = Float(totalRating)
 
@@ -147,7 +147,7 @@ import UIKit
         }
     }
     
-    //set starts value for every progress view
+    //MARK: -set starts value for every progress view
     private func setValuesForProgressBars(fiveStarsProgress: Float,fourStarsProgress: Float,threeStarsProgress: Float,twoStarsProgress: Float,oneStarsProgress: Float){
         UIView.animate(withDuration: TimeInterval(animationTime)) {
             self.fiveRatingProgressView.setProgress(fiveStarsProgress, animated: true)
