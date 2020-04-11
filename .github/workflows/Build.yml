@@ -20,8 +20,6 @@ jobs:
           cd example
           pod install
           xcodebuild clean build -workspace example.xcworkspace -scheme example -destination "platform=iOS Simulator,name=iPhone 11" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
-        env: 
-         destination: ${{ matrix.destination }}
        
       - name: Lint
         run: |
