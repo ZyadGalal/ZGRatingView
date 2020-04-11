@@ -9,6 +9,11 @@ jobs:
     name: Application build
     runs-on: macOS-latest
     
+    strategy:
+        matrix:
+          destination: ['platform=iOS Simulator,OS=12.2,name=iPhone X']
+
+    
     steps:
     - name: Checkout repository (#1)
       uses: actions/checkout@v1
@@ -16,4 +21,4 @@ jobs:
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
       run: |
-        pod trunk push ZGRatingView.podspec
+        pod trunk push 
