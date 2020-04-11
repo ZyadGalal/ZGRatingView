@@ -19,6 +19,11 @@ jobs:
     steps:
     - name: Checkout repository (#1)
       uses: actions/checkout@v1
+      
+    - name: Bump version and push tag
+      uses: mathieudutour/github-tag-action@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}   
     - name: Publish to CocoaPod register
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
